@@ -65,5 +65,5 @@ class Payable(models.Model):
     payment_date = models.DateTimeField(default = timezone.now)
 
     def __str__(self):
-        return self.status
+        return self.payment_status
     
